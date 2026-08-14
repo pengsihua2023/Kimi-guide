@@ -54,3 +54,20 @@ export CLAUDE_CODE_MAX_CONTEXT_TOKENS="262144"
 
 claude
 ```
+
+## Truble
+
+<img width="477" height="163" alt="image" src="https://github.com/user-attachments/assets/008dc291-2850-4ced-af95-8620ee0db07e" />
+
+选第一项：**Kimi Code (OAuth)**，然后按 Enter。
+
+这最适合你的情况，因为你要使用的是 **Kimi 订阅/Kimi Code 权益**，接下来浏览器登录 Kimi 账号即可，不需要填写 API Key。
+
+下面两项用于按量付费 API：
+
+* `platform.kimi.com`：国内 API 平台，人民币充值
+* `platform.kimi.ai`：国际 API 平台，通常美元结算
+
+登录完成后直接运行 `kimi`，而 Claude 模型继续单独使用 `claude`，两套配置不会互相干扰。
+
+
